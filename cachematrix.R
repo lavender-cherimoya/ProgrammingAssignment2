@@ -4,8 +4,8 @@
 ## functions do
 # The goal of both functions is to be able to calculate the inverse of a matrix
 # and cache its inverse for easy later retrieval. 
-#     - makeCacheMatrix : Creates a Matrix object that can cache its inverse.
-#     - cacheSolve : Calculates or retrieves the inverse of a Matrix initialized 
+#     - makeCacheMatrix() : Creates a Matrix object that can cache its inverse.
+#     - cacheSolve() : Calculates or retrieves the inverse of a Matrix initialized 
 #                    with the makeCacheMatrix function depending on if the inverse
 #                    was already calculated and cached or not. 
 
