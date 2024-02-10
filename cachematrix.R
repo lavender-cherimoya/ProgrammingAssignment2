@@ -15,7 +15,7 @@
 #                         n rows and m columns, and its inverse parameter to NULL.
 #     - get() : Returns the values of the matrix X.
 #     - set_inverse(inv) : Sets the value of the parameter inverse to inv.
-#     - get_inverse : Returns the value of the parameter inverse.
+#     - get_inverse() : Returns the value of the parameter inverse.
 
 makeCacheMatrix <- function(X = matrix(c(2,2,3,2), 2, 2)) {
       
@@ -39,7 +39,7 @@ makeCacheMatrix <- function(X = matrix(c(2,2,3,2), 2, 2)) {
 
 ## Write a short comment describing this function
 ## 2nd function:
-# A function that calculate the returns the inverse of an invertible matrix X. 
+# The function calculates (if needed) and returns the inverse of an invertible matrix X. 
 # It first checks if the inverse is already cached in the Matrix Object.
 # If this is the case, it simply retrieves the inverse from the cache.
 # Otherwise, it calculates the inverse and saves it in the object.
