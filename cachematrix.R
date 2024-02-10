@@ -10,8 +10,7 @@
 #                    was already calculated and cached or not. 
 
 
-## Write a short comment describing this function
-## 1st function:
+## Write a short comment describing the 1st function
 # Creates a Matrix object
 # Input : A matrix X. By default, it is set to a 2x2 matrix of value c(2,2,3,2).
 # Output : A list of 4 functions to manipulate the Matrix Object.
@@ -41,8 +40,7 @@ makeCacheMatrix <- function(X = matrix(c(2,2,3,2), 2, 2)) {
       
 }
 
-## Write a short comment describing this function
-## 2nd function:
+## Write a short comment describing the 2nd function
 # The function calculates (if needed) and returns the inverse of an invertible matrix X. 
 # It first checks if the inverse is already cached in the Matrix Object.
 # If this is the case, it simply retrieves the inverse from the cache.
